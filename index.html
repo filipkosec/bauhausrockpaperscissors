@@ -3,12 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
-        <title>Stein, Papier, Schere</title>
-        <script type="text/javascript" src="script.js"></script>
+        <title>Rock, Paper, Scissors!</title>
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-
-    <script>game(500);</script>
-    </body>
-
+<div class = "flavourText">Defeat the computer, choose your hand!</div>
+<div class = "whoWinsText"></div>
+<div class = "gameSpace">
+    <img class ="button" id ="rock" src = 'rock.png'>
+    <img class = "button" id = "paper" src = 'paper.png'>
+    <img class="button" id = "scissors" src = 'scissors.png'>
+</div>
+<div class = "resultsSpace">
+    <div class ="left">
+        <div class = "titleResults">PLAYER</div>
+        <div class ="numResult" id = "playerResults">0</div>
+    </div>
+    <div class = "right">
+        <div class ="titleResults">PC</div>
+        <div class = "numResult" id = "pcResults" >0</div>
+    </div>
+</div>   
+<div class = "footer">Copyright Filip Košec, 2022.</div> 
+</body>
 </html>
